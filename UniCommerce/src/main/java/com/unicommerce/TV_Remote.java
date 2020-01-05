@@ -65,7 +65,7 @@ public class TV_Remote implements Remote_Contol{
 	@Override
 	public void setFavourite() {
 		favourite.add(channel);
-		
+				
 		// TODO Auto-generated method stub
 		System.out.println("List of favourite channel" +favourite);
 	}
@@ -93,8 +93,5 @@ public class TV_Remote implements Remote_Contol{
 		System.out.println("List All Channel" +allChannels);
 
 	}
-	
-	
-	
-	
+		
 }
