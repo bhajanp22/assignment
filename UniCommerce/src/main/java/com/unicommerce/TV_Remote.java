@@ -1,30 +1,17 @@
 package com.unicommerce;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TV_Remove implements Remote_Contol {
-	public static void main(String[] args) {
-
-		Remote_Contol rmt = new TV_Remove();
-		rmt.start();
-		rmt.stop();
-		rmt.decreaseChannel();
-		rmt.decreaseVolume();
-		rmt.increaseChannel();
-		rmt.increaseVolume();
-		rmt.listAllChannel();
-		rmt.setFavourite();
-		rmt.mute();
-		rmt.setChannel(204);
-	}
+public class TV_Remote implements Remote_Contol{
 
 	int channel = 0;
 	int volume = 0;
 	int lastChannel = 250;
 	int firstChannel = 1;
 	boolean onstatus = false;
-	boolean mute = true;
+	boolean mute = false;
 	ArrayList<Integer> favourite = new ArrayList<Integer>(100);	
 	int lowestVolumentlevel = 0;
 	int highestVolumentlevel = 100;
@@ -32,19 +19,11 @@ public class TV_Remove implements Remote_Contol {
 
 
 	@Override
-	public void start() {
+	public void switchOnOff() {
 		// TODO Auto-generated method stub
-		onstatus = true;
-		System.out.println("started TV");
+		onstatus =!onstatus;
 	}
 
-	@Override
-	public void stop() {
-		onstatus = true;
-
-		// TODO Auto-generated method stub
-		System.out.println("Switch off TV");
-	}
 
 	@Override
 	public void setChannel(int newchannel) {
@@ -52,7 +31,6 @@ public class TV_Remove implements Remote_Contol {
 		channel = newchannel;
 		System.out.println("Inside New Channel" + channel);
 	}
-
 	@Override
 	public void increaseChannel() {
 
@@ -78,10 +56,12 @@ public class TV_Remove implements Remote_Contol {
 	@Override
 	public void mute() {
 		// TODO Auto-generated method stub
-		mute=false;
+		mute=!mute;
 		System.out.println("TV is in Mute state");
 	}
 
+	
+	
 	@Override
 	public void setFavourite() {
 		favourite.add(channel);
@@ -113,5 +93,8 @@ public class TV_Remove implements Remote_Contol {
 		System.out.println("List All Channel" +allChannels);
 
 	}
-
+	
+	
+	
+	
 }
