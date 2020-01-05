@@ -1,0 +1,9 @@
+
+public class Remote_Control {
+
+void printhello ()
+{
+	System.out.println("hello");
+	
+}
+}

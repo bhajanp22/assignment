@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;RestPractice&apos;&#x0A;- Original project: &apos;RestPractice&apos;&#x0A;- Original element: &apos;TC_POSTRegister.java&apos;" description="Delete element" element1="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;{TC_POSTRegister.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1577102883279" subPackages="false" version="1.0"/>
+</session>

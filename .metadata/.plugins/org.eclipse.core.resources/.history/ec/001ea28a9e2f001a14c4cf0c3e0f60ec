@@ -1,0 +1,60 @@
+package com.unicommerce;
+
+public class TV_Remove implements Remote_Contol {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub 	
+	boolean TVStatus = false;
+	boolean mute = false;
+	int maxChannel =250;
+	int lowChannel = 1;
+	int lowVolume =0;
+	int highVolume = 100;
+	
+	TV_Remove rmt = new TV_Remove();
+	
+  //Remote_Contol rmt = () -> System.out.println("Inside Remote control");
+	
+rmt.start();		
+ }
+
+
+@Override	
+public void start() {	
+ TVStatus = true;
+}
+@Override
+public void stop () {
+	TVStatus = false;
+}
+
+@Override
+
+public void setChannel(int newchannel) {
+  
+if (TVStatus && maxChannel <250) {
+	newchannel = channel;	
+}
+
+public void increaseChannel()
+{
+	if (TVStatus) {
+		if (channel <250) channel++
+		else if (channel == maxChannel)
+		channel =1;
+	}
+}
+
+public void increaseVolume()
+{
+	if (TVStatus) {
+		if (channel <250) channel++
+		else if (channel == maxChannel)
+		channel =1;
+	}
+}
+
+
+}
+
+}
+     

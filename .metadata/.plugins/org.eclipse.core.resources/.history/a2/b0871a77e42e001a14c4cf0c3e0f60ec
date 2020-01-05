@@ -1,0 +1,11 @@
+
+public class Remote_Control {
+
+public static void main() {
+
+		System.out.println("hello");
+		
+
+}
+
+}

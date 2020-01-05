@@ -1,0 +1,17 @@
+package com.unicommerce;
+
+public class TV_Remove implements Remote_Contol {
+	public static void main(String[] args) {
+		
+     Remote_Contol rmt = new TV_Remove();
+     rmt.start();
+	
+}
+	
+	@Override
+	public void start() {
+		// TODO Auto-generated method stub
+	System.out.println("Hello");
+		
+	}
+}

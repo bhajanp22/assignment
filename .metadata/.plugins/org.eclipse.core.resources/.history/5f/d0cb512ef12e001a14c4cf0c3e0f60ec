@@ -1,0 +1,24 @@
+package com.unicommerce;
+
+public class TV_Remove {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub 	
+	boolean TVStatus = false;
+	int maxChannel =250;
+	int lowChannel = 1;
+	int lowVolume =0;
+	int highVolume = 100;
+	
+	TV_Remove rmt = new TV_Remove();
+	
+	//Remote_Contol rmt = () -> System.out.println("Inside Remote control");
+	public void start () {
+		System.out.println("Inside Remove new method");
+	}
+	
+	
+	rmt.start();
+	
+ }
+     
+}

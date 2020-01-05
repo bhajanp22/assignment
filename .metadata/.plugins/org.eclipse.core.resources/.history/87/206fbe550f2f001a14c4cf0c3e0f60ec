@@ -1,0 +1,14 @@
+package com.unicommerce;
+
+public interface Remote_Contol {
+
+void start();
+void stop();
+//int setFavourite();
+//int increaseVolume();
+void setChannel(int newchannel);
+
+
+
+
+}

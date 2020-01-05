@@ -1,0 +1,1439 @@
+!SESSION 2019-12-23 14:44:17.780 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.net 1 0 2019-12-23 14:44:43.809
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 14:51:14.153
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 14:51:14.165
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 4 4 2019-12-23 15:37:32.200
+!MESSAGE Plug-in 'org.eclipse.egit.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.search.menu' is invalid): org.eclipse.egit.ui.actions.OpenCommitSearchPage
+
+!ENTRY org.eclipse.ui 4 0 2019-12-23 16:30:40.613
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.sse.ui.internal.contentoutline.ConfigurableContentOutlinePage.unconfigure(ConfigurableContentOutlinePage.java:626)
+	at org.eclipse.wst.sse.ui.internal.contentoutline.ConfigurableContentOutlinePage.setConfiguration(ConfigurableContentOutlinePage.java:539)
+	at org.eclipse.wst.sse.ui.StructuredTextEditor.update(StructuredTextEditor.java:3195)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$MavenPomActivationListener.handleActivation(MavenPomEditor.java:988)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$MavenPomActivationListener.lambda$0(MavenPomEditor.java:954)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3812)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2019-12-23 16:31:08.766
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.sse.ui.internal.contentoutline.ConfigurableContentOutlinePage.unconfigure(ConfigurableContentOutlinePage.java:626)
+	at org.eclipse.wst.sse.ui.internal.contentoutline.ConfigurableContentOutlinePage.setConfiguration(ConfigurableContentOutlinePage.java:539)
+	at org.eclipse.wst.sse.ui.StructuredTextEditor.update(StructuredTextEditor.java:3195)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$MavenPomActivationListener.handleActivation(MavenPomEditor.java:988)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$MavenPomActivationListener.lambda$0(MavenPomEditor.java:954)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3812)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.openWizardDialog(AbstractMarketplaceWizardCommand.java:146)
+	at org.eclipse.epp.internal.mpc.ui.commands.AbstractMarketplaceWizardCommand.execute(AbstractMarketplaceWizardCommand.java:73)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:318)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:252)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:438)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4193)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3810)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2019-12-23 16:31:37.468
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.sse.ui.internal.contentoutline.ConfigurableContentOutlinePage.unconfigure(ConfigurableContentOutlinePage.java:626)
+	at org.eclipse.wst.sse.ui.internal.contentoutline.ConfigurableContentOutlinePage.setConfiguration(ConfigurableContentOutlinePage.java:539)
+	at org.eclipse.wst.sse.ui.StructuredTextEditor.update(StructuredTextEditor.java:3195)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$MavenPomActivationListener.handleActivation(MavenPomEditor.java:988)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$MavenPomActivationListener.lambda$0(MavenPomEditor.java:954)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3812)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2019-12-23 16:39:18.310
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.sse.ui.internal.contentoutline.ConfigurableContentOutlinePage.unconfigure(ConfigurableContentOutlinePage.java:626)
+	at org.eclipse.wst.sse.ui.internal.contentoutline.ConfigurableContentOutlinePage.setConfiguration(ConfigurableContentOutlinePage.java:539)
+	at org.eclipse.wst.sse.ui.StructuredTextEditor.update(StructuredTextEditor.java:3195)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$MavenPomActivationListener.handleActivation(MavenPomEditor.java:988)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$MavenPomActivationListener.lambda$0(MavenPomEditor.java:954)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3812)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2019-12-23 16:39:24.389
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.sse.ui.internal.contentoutline.ConfigurableContentOutlinePage.unconfigure(ConfigurableContentOutlinePage.java:626)
+	at org.eclipse.wst.sse.ui.internal.contentoutline.ConfigurableContentOutlinePage.setConfiguration(ConfigurableContentOutlinePage.java:539)
+	at org.eclipse.wst.sse.ui.StructuredTextEditor.update(StructuredTextEditor.java:3195)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$MavenPomActivationListener.handleActivation(MavenPomEditor.java:988)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$MavenPomActivationListener.lambda$0(MavenPomEditor.java:954)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3812)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2019-12-23 16:39:51.745
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.sse.ui.internal.contentoutline.ConfigurableContentOutlinePage.unconfigure(ConfigurableContentOutlinePage.java:626)
+	at org.eclipse.wst.sse.ui.internal.contentoutline.ConfigurableContentOutlinePage.setConfiguration(ConfigurableContentOutlinePage.java:539)
+	at org.eclipse.wst.sse.ui.StructuredTextEditor.update(StructuredTextEditor.java:3195)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$MavenPomActivationListener.handleActivation(MavenPomEditor.java:988)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$MavenPomActivationListener.lambda$0(MavenPomEditor.java:954)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3812)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2019-12-23 16:40:03.866
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.sse.ui.internal.contentoutline.ConfigurableContentOutlinePage.unconfigure(ConfigurableContentOutlinePage.java:626)
+	at org.eclipse.wst.sse.ui.internal.contentoutline.ConfigurableContentOutlinePage.setConfiguration(ConfigurableContentOutlinePage.java:539)
+	at org.eclipse.wst.sse.ui.StructuredTextEditor.update(StructuredTextEditor.java:3195)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$MavenPomActivationListener.handleActivation(MavenPomEditor.java:988)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$MavenPomActivationListener.lambda$0(MavenPomEditor.java:954)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3812)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2019-12-23 16:40:20.971
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.sse.ui.internal.contentoutline.ConfigurableContentOutlinePage.unconfigure(ConfigurableContentOutlinePage.java:626)
+	at org.eclipse.wst.sse.ui.internal.contentoutline.ConfigurableContentOutlinePage.setConfiguration(ConfigurableContentOutlinePage.java:539)
+	at org.eclipse.wst.sse.ui.StructuredTextEditor.update(StructuredTextEditor.java:3195)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$MavenPomActivationListener.handleActivation(MavenPomEditor.java:988)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$MavenPomActivationListener.lambda$0(MavenPomEditor.java:954)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3812)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2019-12-23 16:40:53.432
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.sse.ui.internal.contentoutline.ConfigurableContentOutlinePage.unconfigure(ConfigurableContentOutlinePage.java:626)
+	at org.eclipse.wst.sse.ui.internal.contentoutline.ConfigurableContentOutlinePage.setConfiguration(ConfigurableContentOutlinePage.java:539)
+	at org.eclipse.wst.sse.ui.StructuredTextEditor.update(StructuredTextEditor.java:3195)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$MavenPomActivationListener.handleActivation(MavenPomEditor.java:988)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$MavenPomActivationListener.lambda$0(MavenPomEditor.java:954)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3812)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2019-12-23 16:41:27.427
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.sse.ui.internal.contentoutline.ConfigurableContentOutlinePage.unconfigure(ConfigurableContentOutlinePage.java:626)
+	at org.eclipse.wst.sse.ui.internal.contentoutline.ConfigurableContentOutlinePage.setConfiguration(ConfigurableContentOutlinePage.java:539)
+	at org.eclipse.wst.sse.ui.StructuredTextEditor.update(StructuredTextEditor.java:3195)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$MavenPomActivationListener.handleActivation(MavenPomEditor.java:988)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$MavenPomActivationListener.lambda$0(MavenPomEditor.java:954)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3812)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2019-12-23 16:41:39.485
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.sse.ui.internal.contentoutline.ConfigurableContentOutlinePage.unconfigure(ConfigurableContentOutlinePage.java:626)
+	at org.eclipse.wst.sse.ui.internal.contentoutline.ConfigurableContentOutlinePage.setConfiguration(ConfigurableContentOutlinePage.java:539)
+	at org.eclipse.wst.sse.ui.StructuredTextEditor.update(StructuredTextEditor.java:3195)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$MavenPomActivationListener.handleActivation(MavenPomEditor.java:988)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$MavenPomActivationListener.lambda$0(MavenPomEditor.java:954)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3812)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:469)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:237)
+	at org.eclipse.ui.internal.progress.ProgressManager.lambda$24(ProgressManager.java:799)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:832)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:808)
+	at org.eclipse.ui.internal.SaveableHelper.waitForBackgroundSaveJobs(SaveableHelper.java:442)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:674)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:643)
+	at org.eclipse.ui.internal.SaveablesList.promptForSavingIfNecessary(SaveablesList.java:622)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:564)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:498)
+	at org.eclipse.ui.internal.WorkbenchWindow$4.saveParts(WorkbenchWindow.java:805)
+	at org.eclipse.ui.internal.Workbench.saveAllParts(Workbench.java:1362)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1088)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1428)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1428)
+	at org.eclipse.ui.internal.Workbench.restart(Workbench.java:2560)
+	at org.eclipse.equinox.internal.p2.ui.ProvisioningOperationRunner.lambda$0(ProvisioningOperationRunner.java:94)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3812)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 16:42:59.949
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 16:42:59.956
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.core 4 -1 2019-12-23 16:43:00.722
+!MESSAGE Could not lookup required component
+!STACK 0
+org.codehaus.plexus.component.repository.exception.ComponentLookupException: java.util.NoSuchElementException
+      role: org.apache.maven.plugin.LegacySupport
+  roleHint: 
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:267)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:255)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:249)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lookup(MavenImpl.java:1293)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:141)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1375)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.util.NoSuchElementException
+	at java.util.Collections$EmptyIterator.next(Collections.java:4189)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:263)
+	... 8 more
+!SESSION 2019-12-23 16:43:02.327 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -data file:/Users/bpoonia/eclipse-workspace/ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.net 1 0 2019-12-23 16:43:13.985
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 16:45:12.946
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 16:45:12.964
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 16:45:14.074
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 16:45:14.084
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-12-23 16:46:37.884
+!MESSAGE Could not download sources for org.apache.poi:poi-ooxml-schemas:4.1.1
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.poi:poi-ooxml-schemas:jar:sources:4.1.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:805)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:750)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1375)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.apache.poi:poi-ooxml-schemas:jar:sources:4.1.1
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-12-23 16:46:37.887
+!MESSAGE Could not resolve artifact org.apache.poi:poi-ooxml-schemas:jar:sources:4.1.1
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-12-23 16:46:37.887
+!MESSAGE Missing org.apache.poi:poi-ooxml-schemas:jar:sources:4.1.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 16:46:47.483
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 16:46:47.488
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-12-23 16:46:50.093
+!MESSAGE Could not download javadoc for org.apache.poi:poi-ooxml-schemas:4.1.1
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.poi:poi-ooxml-schemas:jar:javadoc:4.1.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:805)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:750)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1375)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.apache.poi:poi-ooxml-schemas:jar:javadoc:4.1.1
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-12-23 16:46:50.093
+!MESSAGE Could not resolve artifact org.apache.poi:poi-ooxml-schemas:jar:javadoc:4.1.1
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-12-23 16:46:50.093
+!MESSAGE Missing org.apache.poi:poi-ooxml-schemas:jar:javadoc:4.1.1
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 16:53:39.196
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 16:53:39.200
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 16:53:40.271
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 16:53:40.273
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 17:06:10.818
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 17:06:10.823
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2019-12-23 17:06:18.956
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/bpoonia/eclipse/jee-2019-12/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/958/0/.cp/lib/testng-remote.jar /Users/bpoonia/Documents/target/test-classes /Users/bpoonia/Documents/target/classes /Users/bpoonia/.m2/repository/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar /Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy/2.4.15/groovy-2.4.15.jar /Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.15/groovy-xml-2.4.15.jar /Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/bpoonia/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar /Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar /Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar /Users/bpoonia/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar /Users/bpoonia/.m2/repository/io/rest-assured/json-path/3.3.0/json-path-3.3.0.jar /Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-json/2.4.15/groovy-json-2.4.15.jar /Users/bpoonia/.m2/repository/io/rest-assured/rest-assured-common/3.3.0/rest-assured-common-3.3.0.jar /Users/bpoonia/.m2/repository/io/rest-assured/xml-path/3.3.0/xml-path-3.3.0.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar /Users/bpoonia/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar /Users/bpoonia/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.2.10/jaxb-osgi-2.2.10.jar /Users/bpoonia/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar /Users/bpoonia/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar /Users/bpoonia/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar /Users/bpoonia/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar /Users/bpoonia/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar /Users/bpoonia/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar /Users/bpoonia/.m2/repository/junit/junit/4.10/junit-4.10.jar /Users/bpoonia/.m2/repository/org/apache/poi/poi/4.1.1/poi-4.1.1.jar /Users/bpoonia/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar /Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml/4.1.1/poi-ooxml-4.1.1.jar /Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.1/poi-ooxml-schemas-4.1.1.jar /Users/bpoonia/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar /Users/bpoonia/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50468 -protocol json -d /Users/bpoonia/Documents/test-output /var/folders/gb/vwq3r7bs35x0lvgwlp62mqr80000gn/T/testng-eclipse--1655151100/testng-customsuite.xml
+java -ea -classpath /Users/bpoonia/eclipse/jee-2019-12/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/958/0/.cp/lib/testng-remote.jar:/Users/bpoonia/Documents/target/test-classes:/Users/bpoonia/Documents/target/classes:/Users/bpoonia/.m2/repository/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar:/Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy/2.4.15/groovy-2.4.15.jar:/Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.15/groovy-xml-2.4.15.jar:/Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/bpoonia/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/bpoonia/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/bpoonia/.m2/repository/io/rest-assured/json-path/3.3.0/json-path-3.3.0.jar:/Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-json/2.4.15/groovy-json-2.4.15.jar:/Users/bpoonia/.m2/repository/io/rest-assured/rest-assured-common/3.3.0/rest-assured-common-3.3.0.jar:/Users/bpoonia/.m2/repository/io/rest-assured/xml-path/3.3.0/xml-path-3.3.0.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/bpoonia/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:/Users/bpoonia/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.2.10/jaxb-osgi-2.2.10.jar:/Users/bpoonia/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/bpoonia/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/bpoonia/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/bpoonia/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/bpoonia/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/bpoonia/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/bpoonia/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/bpoonia/.m2/repository/org/apache/poi/poi/4.1.1/poi-4.1.1.jar:/Users/bpoonia/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml/4.1.1/poi-ooxml-4.1.1.jar:/Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.1/poi-ooxml-schemas-4.1.1.jar:/Users/bpoonia/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/bpoonia/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar org.testng.remote.RemoteTestNG -serport 50468 -protocol json -d /Users/bpoonia/Documents/test-output /var/folders/gb/vwq3r7bs35x0lvgwlp62mqr80000gn/T/testng-eclipse--1655151100/testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 17:09:30.939
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 17:09:30.942
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2019-12-23 17:09:35.802
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/bpoonia/eclipse/jee-2019-12/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/958/0/.cp/lib/testng-remote.jar /Users/bpoonia/Documents/target/test-classes /Users/bpoonia/Documents/target/classes /Users/bpoonia/.m2/repository/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar /Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy/2.4.15/groovy-2.4.15.jar /Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.15/groovy-xml-2.4.15.jar /Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/bpoonia/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar /Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar /Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar /Users/bpoonia/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar /Users/bpoonia/.m2/repository/io/rest-assured/json-path/3.3.0/json-path-3.3.0.jar /Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-json/2.4.15/groovy-json-2.4.15.jar /Users/bpoonia/.m2/repository/io/rest-assured/rest-assured-common/3.3.0/rest-assured-common-3.3.0.jar /Users/bpoonia/.m2/repository/io/rest-assured/xml-path/3.3.0/xml-path-3.3.0.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar /Users/bpoonia/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar /Users/bpoonia/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.2.10/jaxb-osgi-2.2.10.jar /Users/bpoonia/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar /Users/bpoonia/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar /Users/bpoonia/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar /Users/bpoonia/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar /Users/bpoonia/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar /Users/bpoonia/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar /Users/bpoonia/.m2/repository/junit/junit/4.10/junit-4.10.jar /Users/bpoonia/.m2/repository/org/apache/poi/poi/4.1.1/poi-4.1.1.jar /Users/bpoonia/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar /Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml/4.1.1/poi-ooxml-4.1.1.jar /Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.1/poi-ooxml-schemas-4.1.1.jar /Users/bpoonia/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar /Users/bpoonia/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50497 -protocol json -d /Users/bpoonia/Documents/test-output /var/folders/gb/vwq3r7bs35x0lvgwlp62mqr80000gn/T/testng-eclipse-1221306653/testng-customsuite.xml
+java -ea -classpath /Users/bpoonia/eclipse/jee-2019-12/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/958/0/.cp/lib/testng-remote.jar:/Users/bpoonia/Documents/target/test-classes:/Users/bpoonia/Documents/target/classes:/Users/bpoonia/.m2/repository/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar:/Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy/2.4.15/groovy-2.4.15.jar:/Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.15/groovy-xml-2.4.15.jar:/Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/bpoonia/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/bpoonia/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/bpoonia/.m2/repository/io/rest-assured/json-path/3.3.0/json-path-3.3.0.jar:/Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-json/2.4.15/groovy-json-2.4.15.jar:/Users/bpoonia/.m2/repository/io/rest-assured/rest-assured-common/3.3.0/rest-assured-common-3.3.0.jar:/Users/bpoonia/.m2/repository/io/rest-assured/xml-path/3.3.0/xml-path-3.3.0.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/bpoonia/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:/Users/bpoonia/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.2.10/jaxb-osgi-2.2.10.jar:/Users/bpoonia/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/bpoonia/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/bpoonia/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/bpoonia/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/bpoonia/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/bpoonia/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/bpoonia/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/bpoonia/.m2/repository/org/apache/poi/poi/4.1.1/poi-4.1.1.jar:/Users/bpoonia/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml/4.1.1/poi-ooxml-4.1.1.jar:/Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.1/poi-ooxml-schemas-4.1.1.jar:/Users/bpoonia/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/bpoonia/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar org.testng.remote.RemoteTestNG -serport 50497 -protocol json -d /Users/bpoonia/Documents/test-output /var/folders/gb/vwq3r7bs35x0lvgwlp62mqr80000gn/T/testng-eclipse-1221306653/testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 17:11:54.951
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 17:11:54.957
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2019-12-23 17:11:59.523
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/bpoonia/eclipse/jee-2019-12/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/958/0/.cp/lib/testng-remote.jar /Users/bpoonia/Documents/target/test-classes /Users/bpoonia/Documents/target/classes /Users/bpoonia/.m2/repository/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar /Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy/2.4.15/groovy-2.4.15.jar /Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.15/groovy-xml-2.4.15.jar /Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/bpoonia/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar /Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar /Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar /Users/bpoonia/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar /Users/bpoonia/.m2/repository/io/rest-assured/json-path/3.3.0/json-path-3.3.0.jar /Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-json/2.4.15/groovy-json-2.4.15.jar /Users/bpoonia/.m2/repository/io/rest-assured/rest-assured-common/3.3.0/rest-assured-common-3.3.0.jar /Users/bpoonia/.m2/repository/io/rest-assured/xml-path/3.3.0/xml-path-3.3.0.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar /Users/bpoonia/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar /Users/bpoonia/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.2.10/jaxb-osgi-2.2.10.jar /Users/bpoonia/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar /Users/bpoonia/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar /Users/bpoonia/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar /Users/bpoonia/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar /Users/bpoonia/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar /Users/bpoonia/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar /Users/bpoonia/.m2/repository/junit/junit/4.10/junit-4.10.jar /Users/bpoonia/.m2/repository/org/apache/poi/poi/4.1.1/poi-4.1.1.jar /Users/bpoonia/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar /Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml/4.1.1/poi-ooxml-4.1.1.jar /Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.1/poi-ooxml-schemas-4.1.1.jar /Users/bpoonia/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar /Users/bpoonia/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50516 -protocol json -d /Users/bpoonia/Documents/test-output /var/folders/gb/vwq3r7bs35x0lvgwlp62mqr80000gn/T/testng-eclipse--2130277121/testng-customsuite.xml
+java -ea -classpath /Users/bpoonia/eclipse/jee-2019-12/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/958/0/.cp/lib/testng-remote.jar:/Users/bpoonia/Documents/target/test-classes:/Users/bpoonia/Documents/target/classes:/Users/bpoonia/.m2/repository/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar:/Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy/2.4.15/groovy-2.4.15.jar:/Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.15/groovy-xml-2.4.15.jar:/Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/bpoonia/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/bpoonia/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/bpoonia/.m2/repository/io/rest-assured/json-path/3.3.0/json-path-3.3.0.jar:/Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-json/2.4.15/groovy-json-2.4.15.jar:/Users/bpoonia/.m2/repository/io/rest-assured/rest-assured-common/3.3.0/rest-assured-common-3.3.0.jar:/Users/bpoonia/.m2/repository/io/rest-assured/xml-path/3.3.0/xml-path-3.3.0.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/bpoonia/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:/Users/bpoonia/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.2.10/jaxb-osgi-2.2.10.jar:/Users/bpoonia/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/bpoonia/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/bpoonia/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/bpoonia/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/bpoonia/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/bpoonia/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/bpoonia/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/bpoonia/.m2/repository/org/apache/poi/poi/4.1.1/poi-4.1.1.jar:/Users/bpoonia/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml/4.1.1/poi-ooxml-4.1.1.jar:/Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.1/poi-ooxml-schemas-4.1.1.jar:/Users/bpoonia/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/bpoonia/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar org.testng.remote.RemoteTestNG -serport 50516 -protocol json -d /Users/bpoonia/Documents/test-output /var/folders/gb/vwq3r7bs35x0lvgwlp62mqr80000gn/T/testng-eclipse--2130277121/testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 17:13:01.669
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 17:13:01.673
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 17:16:08.760
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 17:16:08.767
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2019-12-23 17:16:15.670
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/bpoonia/eclipse/jee-2019-12/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/958/0/.cp/lib/testng-remote.jar /Users/bpoonia/Documents/target/test-classes /Users/bpoonia/Documents/target/classes /Users/bpoonia/.m2/repository/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar /Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy/2.4.15/groovy-2.4.15.jar /Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.15/groovy-xml-2.4.15.jar /Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/bpoonia/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar /Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar /Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar /Users/bpoonia/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar /Users/bpoonia/.m2/repository/io/rest-assured/json-path/3.3.0/json-path-3.3.0.jar /Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-json/2.4.15/groovy-json-2.4.15.jar /Users/bpoonia/.m2/repository/io/rest-assured/rest-assured-common/3.3.0/rest-assured-common-3.3.0.jar /Users/bpoonia/.m2/repository/io/rest-assured/xml-path/3.3.0/xml-path-3.3.0.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar /Users/bpoonia/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar /Users/bpoonia/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.2.10/jaxb-osgi-2.2.10.jar /Users/bpoonia/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar /Users/bpoonia/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar /Users/bpoonia/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar /Users/bpoonia/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar /Users/bpoonia/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar /Users/bpoonia/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar /Users/bpoonia/.m2/repository/junit/junit/4.10/junit-4.10.jar /Users/bpoonia/.m2/repository/org/apache/poi/poi/4.1.1/poi-4.1.1.jar /Users/bpoonia/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar /Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml/4.1.1/poi-ooxml-4.1.1.jar /Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.1/poi-ooxml-schemas-4.1.1.jar /Users/bpoonia/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar /Users/bpoonia/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50535 -protocol json -d /Users/bpoonia/Documents/test-output /var/folders/gb/vwq3r7bs35x0lvgwlp62mqr80000gn/T/testng-eclipse-2055789268/testng-customsuite.xml
+java -ea -classpath /Users/bpoonia/eclipse/jee-2019-12/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/958/0/.cp/lib/testng-remote.jar:/Users/bpoonia/Documents/target/test-classes:/Users/bpoonia/Documents/target/classes:/Users/bpoonia/.m2/repository/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar:/Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy/2.4.15/groovy-2.4.15.jar:/Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.15/groovy-xml-2.4.15.jar:/Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/bpoonia/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/bpoonia/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/bpoonia/.m2/repository/io/rest-assured/json-path/3.3.0/json-path-3.3.0.jar:/Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-json/2.4.15/groovy-json-2.4.15.jar:/Users/bpoonia/.m2/repository/io/rest-assured/rest-assured-common/3.3.0/rest-assured-common-3.3.0.jar:/Users/bpoonia/.m2/repository/io/rest-assured/xml-path/3.3.0/xml-path-3.3.0.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/bpoonia/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:/Users/bpoonia/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.2.10/jaxb-osgi-2.2.10.jar:/Users/bpoonia/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/bpoonia/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/bpoonia/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/bpoonia/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/bpoonia/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/bpoonia/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/bpoonia/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/bpoonia/.m2/repository/org/apache/poi/poi/4.1.1/poi-4.1.1.jar:/Users/bpoonia/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml/4.1.1/poi-ooxml-4.1.1.jar:/Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.1/poi-ooxml-schemas-4.1.1.jar:/Users/bpoonia/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/bpoonia/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar org.testng.remote.RemoteTestNG -serport 50535 -protocol json -d /Users/bpoonia/Documents/test-output /var/folders/gb/vwq3r7bs35x0lvgwlp62mqr80000gn/T/testng-eclipse-2055789268/testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 17:16:56.831
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 17:16:56.834
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2019-12-23 17:17:03.233
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/bpoonia/eclipse/jee-2019-12/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/958/0/.cp/lib/testng-remote.jar /Users/bpoonia/Documents/target/test-classes /Users/bpoonia/Documents/target/classes /Users/bpoonia/.m2/repository/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar /Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy/2.4.15/groovy-2.4.15.jar /Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.15/groovy-xml-2.4.15.jar /Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/bpoonia/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar /Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar /Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar /Users/bpoonia/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar /Users/bpoonia/.m2/repository/io/rest-assured/json-path/3.3.0/json-path-3.3.0.jar /Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-json/2.4.15/groovy-json-2.4.15.jar /Users/bpoonia/.m2/repository/io/rest-assured/rest-assured-common/3.3.0/rest-assured-common-3.3.0.jar /Users/bpoonia/.m2/repository/io/rest-assured/xml-path/3.3.0/xml-path-3.3.0.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar /Users/bpoonia/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar /Users/bpoonia/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.2.10/jaxb-osgi-2.2.10.jar /Users/bpoonia/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar /Users/bpoonia/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar /Users/bpoonia/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar /Users/bpoonia/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar /Users/bpoonia/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar /Users/bpoonia/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar /Users/bpoonia/.m2/repository/junit/junit/4.10/junit-4.10.jar /Users/bpoonia/.m2/repository/org/apache/poi/poi/4.1.1/poi-4.1.1.jar /Users/bpoonia/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar /Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml/4.1.1/poi-ooxml-4.1.1.jar /Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.1/poi-ooxml-schemas-4.1.1.jar /Users/bpoonia/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar /Users/bpoonia/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50539 -protocol json -d /Users/bpoonia/Documents/test-output /var/folders/gb/vwq3r7bs35x0lvgwlp62mqr80000gn/T/testng-eclipse-1355207493/testng-customsuite.xml
+java -ea -classpath /Users/bpoonia/eclipse/jee-2019-12/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/958/0/.cp/lib/testng-remote.jar:/Users/bpoonia/Documents/target/test-classes:/Users/bpoonia/Documents/target/classes:/Users/bpoonia/.m2/repository/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar:/Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy/2.4.15/groovy-2.4.15.jar:/Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.15/groovy-xml-2.4.15.jar:/Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/bpoonia/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/bpoonia/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/bpoonia/.m2/repository/io/rest-assured/json-path/3.3.0/json-path-3.3.0.jar:/Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-json/2.4.15/groovy-json-2.4.15.jar:/Users/bpoonia/.m2/repository/io/rest-assured/rest-assured-common/3.3.0/rest-assured-common-3.3.0.jar:/Users/bpoonia/.m2/repository/io/rest-assured/xml-path/3.3.0/xml-path-3.3.0.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/bpoonia/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:/Users/bpoonia/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.2.10/jaxb-osgi-2.2.10.jar:/Users/bpoonia/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/bpoonia/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/bpoonia/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/bpoonia/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/bpoonia/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/bpoonia/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/bpoonia/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/bpoonia/.m2/repository/org/apache/poi/poi/4.1.1/poi-4.1.1.jar:/Users/bpoonia/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml/4.1.1/poi-ooxml-4.1.1.jar:/Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.1/poi-ooxml-schemas-4.1.1.jar:/Users/bpoonia/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/bpoonia/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar org.testng.remote.RemoteTestNG -serport 50539 -protocol json -d /Users/bpoonia/Documents/test-output /var/folders/gb/vwq3r7bs35x0lvgwlp62mqr80000gn/T/testng-eclipse-1355207493/testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 17:37:36.436
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 17:37:36.444
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 17:38:03.510
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 17:38:03.516
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 17:38:22.668
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 17:38:22.677
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 17:52:55.992
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 17:52:55.998
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2019-12-23 17:53:04.138
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/bpoonia/eclipse/jee-2019-12/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/958/0/.cp/lib/testng-remote.jar /Users/bpoonia/Documents/target/test-classes /Users/bpoonia/Documents/target/classes /Users/bpoonia/.m2/repository/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar /Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy/2.4.15/groovy-2.4.15.jar /Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.15/groovy-xml-2.4.15.jar /Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/bpoonia/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar /Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar /Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar /Users/bpoonia/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar /Users/bpoonia/.m2/repository/io/rest-assured/json-path/3.3.0/json-path-3.3.0.jar /Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-json/2.4.15/groovy-json-2.4.15.jar /Users/bpoonia/.m2/repository/io/rest-assured/rest-assured-common/3.3.0/rest-assured-common-3.3.0.jar /Users/bpoonia/.m2/repository/io/rest-assured/xml-path/3.3.0/xml-path-3.3.0.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar /Users/bpoonia/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar /Users/bpoonia/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.2.10/jaxb-osgi-2.2.10.jar /Users/bpoonia/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar /Users/bpoonia/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar /Users/bpoonia/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar /Users/bpoonia/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar /Users/bpoonia/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar /Users/bpoonia/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar /Users/bpoonia/.m2/repository/junit/junit/4.10/junit-4.10.jar /Users/bpoonia/.m2/repository/org/apache/poi/poi/4.1.1/poi-4.1.1.jar /Users/bpoonia/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar /Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml/4.1.1/poi-ooxml-4.1.1.jar /Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.1/poi-ooxml-schemas-4.1.1.jar /Users/bpoonia/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar /Users/bpoonia/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50798 -protocol json -d /Users/bpoonia/Documents/test-output /var/folders/gb/vwq3r7bs35x0lvgwlp62mqr80000gn/T/testng-eclipse-1871636275/testng-customsuite.xml
+java -ea -classpath /Users/bpoonia/eclipse/jee-2019-12/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/958/0/.cp/lib/testng-remote.jar:/Users/bpoonia/Documents/target/test-classes:/Users/bpoonia/Documents/target/classes:/Users/bpoonia/.m2/repository/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar:/Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy/2.4.15/groovy-2.4.15.jar:/Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.15/groovy-xml-2.4.15.jar:/Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/bpoonia/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/bpoonia/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/bpoonia/.m2/repository/io/rest-assured/json-path/3.3.0/json-path-3.3.0.jar:/Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-json/2.4.15/groovy-json-2.4.15.jar:/Users/bpoonia/.m2/repository/io/rest-assured/rest-assured-common/3.3.0/rest-assured-common-3.3.0.jar:/Users/bpoonia/.m2/repository/io/rest-assured/xml-path/3.3.0/xml-path-3.3.0.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/bpoonia/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:/Users/bpoonia/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.2.10/jaxb-osgi-2.2.10.jar:/Users/bpoonia/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/bpoonia/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/bpoonia/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/bpoonia/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/bpoonia/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/bpoonia/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/bpoonia/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/bpoonia/.m2/repository/org/apache/poi/poi/4.1.1/poi-4.1.1.jar:/Users/bpoonia/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml/4.1.1/poi-ooxml-4.1.1.jar:/Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.1/poi-ooxml-schemas-4.1.1.jar:/Users/bpoonia/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/bpoonia/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar org.testng.remote.RemoteTestNG -serport 50798 -protocol json -d /Users/bpoonia/Documents/test-output /var/folders/gb/vwq3r7bs35x0lvgwlp62mqr80000gn/T/testng-eclipse-1871636275/testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 17:55:45.928
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 17:55:45.932
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2019-12-23 17:55:53.520
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/bpoonia/eclipse/jee-2019-12/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/958/0/.cp/lib/testng-remote.jar /Users/bpoonia/Documents/target/test-classes /Users/bpoonia/Documents/target/classes /Users/bpoonia/.m2/repository/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar /Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy/2.4.15/groovy-2.4.15.jar /Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.15/groovy-xml-2.4.15.jar /Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/bpoonia/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar /Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar /Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar /Users/bpoonia/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar /Users/bpoonia/.m2/repository/io/rest-assured/json-path/3.3.0/json-path-3.3.0.jar /Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-json/2.4.15/groovy-json-2.4.15.jar /Users/bpoonia/.m2/repository/io/rest-assured/rest-assured-common/3.3.0/rest-assured-common-3.3.0.jar /Users/bpoonia/.m2/repository/io/rest-assured/xml-path/3.3.0/xml-path-3.3.0.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar /Users/bpoonia/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar /Users/bpoonia/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.2.10/jaxb-osgi-2.2.10.jar /Users/bpoonia/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar /Users/bpoonia/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar /Users/bpoonia/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar /Users/bpoonia/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar /Users/bpoonia/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar /Users/bpoonia/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar /Users/bpoonia/.m2/repository/junit/junit/4.10/junit-4.10.jar /Users/bpoonia/.m2/repository/org/apache/poi/poi/4.1.1/poi-4.1.1.jar /Users/bpoonia/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar /Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml/4.1.1/poi-ooxml-4.1.1.jar /Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.1/poi-ooxml-schemas-4.1.1.jar /Users/bpoonia/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar /Users/bpoonia/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50812 -protocol json -d /Users/bpoonia/Documents/test-output /var/folders/gb/vwq3r7bs35x0lvgwlp62mqr80000gn/T/testng-eclipse--1002024256/testng-customsuite.xml
+java -ea -classpath /Users/bpoonia/eclipse/jee-2019-12/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/958/0/.cp/lib/testng-remote.jar:/Users/bpoonia/Documents/target/test-classes:/Users/bpoonia/Documents/target/classes:/Users/bpoonia/.m2/repository/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar:/Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy/2.4.15/groovy-2.4.15.jar:/Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.15/groovy-xml-2.4.15.jar:/Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/bpoonia/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/bpoonia/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/bpoonia/.m2/repository/io/rest-assured/json-path/3.3.0/json-path-3.3.0.jar:/Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-json/2.4.15/groovy-json-2.4.15.jar:/Users/bpoonia/.m2/repository/io/rest-assured/rest-assured-common/3.3.0/rest-assured-common-3.3.0.jar:/Users/bpoonia/.m2/repository/io/rest-assured/xml-path/3.3.0/xml-path-3.3.0.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/bpoonia/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:/Users/bpoonia/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.2.10/jaxb-osgi-2.2.10.jar:/Users/bpoonia/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/bpoonia/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/bpoonia/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/bpoonia/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/bpoonia/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/bpoonia/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/bpoonia/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/bpoonia/.m2/repository/org/apache/poi/poi/4.1.1/poi-4.1.1.jar:/Users/bpoonia/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml/4.1.1/poi-ooxml-4.1.1.jar:/Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.1/poi-ooxml-schemas-4.1.1.jar:/Users/bpoonia/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/bpoonia/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar org.testng.remote.RemoteTestNG -serport 50812 -protocol json -d /Users/bpoonia/Documents/test-output /var/folders/gb/vwq3r7bs35x0lvgwlp62mqr80000gn/T/testng-eclipse--1002024256/testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 17:57:05.626
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-23 17:57:05.630
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2019-12-23 17:57:10.697
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/bpoonia/eclipse/jee-2019-12/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/958/0/.cp/lib/testng-remote.jar /Users/bpoonia/Documents/target/test-classes /Users/bpoonia/Documents/target/classes /Users/bpoonia/.m2/repository/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar /Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy/2.4.15/groovy-2.4.15.jar /Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.15/groovy-xml-2.4.15.jar /Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/bpoonia/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar /Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar /Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar /Users/bpoonia/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar /Users/bpoonia/.m2/repository/io/rest-assured/json-path/3.3.0/json-path-3.3.0.jar /Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-json/2.4.15/groovy-json-2.4.15.jar /Users/bpoonia/.m2/repository/io/rest-assured/rest-assured-common/3.3.0/rest-assured-common-3.3.0.jar /Users/bpoonia/.m2/repository/io/rest-assured/xml-path/3.3.0/xml-path-3.3.0.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar /Users/bpoonia/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar /Users/bpoonia/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.2.10/jaxb-osgi-2.2.10.jar /Users/bpoonia/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar /Users/bpoonia/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar /Users/bpoonia/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar /Users/bpoonia/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar /Users/bpoonia/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar /Users/bpoonia/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar /Users/bpoonia/.m2/repository/junit/junit/4.10/junit-4.10.jar /Users/bpoonia/.m2/repository/org/apache/poi/poi/4.1.1/poi-4.1.1.jar /Users/bpoonia/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar /Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml/4.1.1/poi-ooxml-4.1.1.jar /Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.1/poi-ooxml-schemas-4.1.1.jar /Users/bpoonia/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar /Users/bpoonia/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50820 -protocol json -d /Users/bpoonia/Documents/test-output /var/folders/gb/vwq3r7bs35x0lvgwlp62mqr80000gn/T/testng-eclipse-1703068639/testng-customsuite.xml
+java -ea -classpath /Users/bpoonia/eclipse/jee-2019-12/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/958/0/.cp/lib/testng-remote.jar:/Users/bpoonia/Documents/target/test-classes:/Users/bpoonia/Documents/target/classes:/Users/bpoonia/.m2/repository/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar:/Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy/2.4.15/groovy-2.4.15.jar:/Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.15/groovy-xml-2.4.15.jar:/Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/bpoonia/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/bpoonia/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/bpoonia/.m2/repository/io/rest-assured/json-path/3.3.0/json-path-3.3.0.jar:/Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-json/2.4.15/groovy-json-2.4.15.jar:/Users/bpoonia/.m2/repository/io/rest-assured/rest-assured-common/3.3.0/rest-assured-common-3.3.0.jar:/Users/bpoonia/.m2/repository/io/rest-assured/xml-path/3.3.0/xml-path-3.3.0.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/bpoonia/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:/Users/bpoonia/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.2.10/jaxb-osgi-2.2.10.jar:/Users/bpoonia/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/bpoonia/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/bpoonia/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/bpoonia/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/bpoonia/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/bpoonia/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/bpoonia/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/bpoonia/.m2/repository/org/apache/poi/poi/4.1.1/poi-4.1.1.jar:/Users/bpoonia/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml/4.1.1/poi-ooxml-4.1.1.jar:/Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.1/poi-ooxml-schemas-4.1.1.jar:/Users/bpoonia/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/bpoonia/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar org.testng.remote.RemoteTestNG -serport 50820 -protocol json -d /Users/bpoonia/Documents/test-output /var/folders/gb/vwq3r7bs35x0lvgwlp62mqr80000gn/T/testng-eclipse-1703068639/testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-24 07:05:34.365
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-24 07:05:34.373
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-24 07:05:55.383
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-24 07:05:55.388
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2020-01-04 09:32:20.088 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/bpoonia/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/bpoonia/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2020-01-04 09:33:00.150
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 09:36:33.509
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 09:36:33.525
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 09:39:03.657
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 09:39:03.718
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 09:45:20.274
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 09:45:20.280
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 09:45:47.176
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 09:45:47.186
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 09:45:48.773
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 09:45:48.776
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2020-01-04 09:46:39.291
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Applications/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/1912/0/.cp/lib/testng-remote.jar /Users/bpoonia/Documents/target/test-classes /Users/bpoonia/Documents/target/classes /Users/bpoonia/.m2/repository/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar /Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy/2.4.15/groovy-2.4.15.jar /Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.15/groovy-xml-2.4.15.jar /Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar /Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar /Users/bpoonia/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar /Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar /Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar /Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar /Users/bpoonia/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar /Users/bpoonia/.m2/repository/io/rest-assured/json-path/3.3.0/json-path-3.3.0.jar /Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-json/2.4.15/groovy-json-2.4.15.jar /Users/bpoonia/.m2/repository/io/rest-assured/rest-assured-common/3.3.0/rest-assured-common-3.3.0.jar /Users/bpoonia/.m2/repository/io/rest-assured/xml-path/3.3.0/xml-path-3.3.0.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar /Users/bpoonia/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar /Users/bpoonia/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.2.10/jaxb-osgi-2.2.10.jar /Users/bpoonia/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar /Users/bpoonia/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar /Users/bpoonia/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar /Users/bpoonia/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar /Users/bpoonia/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar /Users/bpoonia/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar /Users/bpoonia/.m2/repository/junit/junit/4.10/junit-4.10.jar /Users/bpoonia/.m2/repository/org/apache/poi/poi/4.1.1/poi-4.1.1.jar /Users/bpoonia/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar /Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml/4.1.1/poi-ooxml-4.1.1.jar /Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.1/poi-ooxml-schemas-4.1.1.jar /Users/bpoonia/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar /Users/bpoonia/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar /Users/bpoonia/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56110 -protocol json -d /Users/bpoonia/Documents/test-output /var/folders/gb/vwq3r7bs35x0lvgwlp62mqr80000gn/T/testng-eclipse--99796462/testng-customsuite.xml
+java -ea -classpath /Applications/Eclipse.app/Contents/Eclipse/configuration/org.eclipse.osgi/1912/0/.cp/lib/testng-remote.jar:/Users/bpoonia/Documents/target/test-classes:/Users/bpoonia/Documents/target/classes:/Users/bpoonia/.m2/repository/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar:/Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy/2.4.15/groovy-2.4.15.jar:/Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.15/groovy-xml-2.4.15.jar:/Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/bpoonia/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/bpoonia/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/bpoonia/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/bpoonia/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/bpoonia/.m2/repository/io/rest-assured/json-path/3.3.0/json-path-3.3.0.jar:/Users/bpoonia/.m2/repository/org/codehaus/groovy/groovy-json/2.4.15/groovy-json-2.4.15.jar:/Users/bpoonia/.m2/repository/io/rest-assured/rest-assured-common/3.3.0/rest-assured-common-3.3.0.jar:/Users/bpoonia/.m2/repository/io/rest-assured/xml-path/3.3.0/xml-path-3.3.0.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/bpoonia/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:/Users/bpoonia/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.2.10/jaxb-osgi-2.2.10.jar:/Users/bpoonia/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/bpoonia/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/bpoonia/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/bpoonia/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/bpoonia/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/bpoonia/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/bpoonia/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/bpoonia/.m2/repository/org/apache/poi/poi/4.1.1/poi-4.1.1.jar:/Users/bpoonia/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml/4.1.1/poi-ooxml-4.1.1.jar:/Users/bpoonia/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.1/poi-ooxml-schemas-4.1.1.jar:/Users/bpoonia/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/bpoonia/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/bpoonia/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar org.testng.remote.RemoteTestNG -serport 56110 -protocol json -d /Users/bpoonia/Documents/test-output /var/folders/gb/vwq3r7bs35x0lvgwlp62mqr80000gn/T/testng-eclipse--99796462/testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-01-04 16:38:55.452
+!MESSAGE Launch configuration TC02_PostRegister references non-existing project RestPractice.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration TC02_PostRegister references non-existing project RestPractice.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1713)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:522)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:347)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:373)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:821)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1375)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2020-01-04 16:38:55.454
+!MESSAGE Launch configuration TC02_PostRegister references non-existing project RestPractice.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-01-04 16:38:55.458
+!MESSAGE Launch configuration TC02_PostRegister references non-existing project RestPractice.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration TC02_PostRegister references non-existing project RestPractice.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1713)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:522)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:348)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:373)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:821)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1375)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2020-01-04 16:38:55.458
+!MESSAGE Launch configuration TC02_PostRegister references non-existing project RestPractice.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-01-04 16:38:55.503
+!MESSAGE Launch configuration TC02_PostRegister references non-existing project RestPractice.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration TC02_PostRegister references non-existing project RestPractice.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1713)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2147)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:375)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:258)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:228)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:186)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:349)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:373)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:821)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1375)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2020-01-04 16:38:55.504
+!MESSAGE Launch configuration TC02_PostRegister references non-existing project RestPractice.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-01-04 16:38:55.505
+!MESSAGE Launch configuration TC01_GetRequest references non-existing project RestPractice.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration TC01_GetRequest references non-existing project RestPractice.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1713)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:522)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:347)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:373)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:821)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1375)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2020-01-04 16:38:55.507
+!MESSAGE Launch configuration TC01_GetRequest references non-existing project RestPractice.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-01-04 16:38:55.508
+!MESSAGE Launch configuration TC01_GetRequest references non-existing project RestPractice.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration TC01_GetRequest references non-existing project RestPractice.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1713)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:522)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:348)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:373)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:821)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1375)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2020-01-04 16:38:55.509
+!MESSAGE Launch configuration TC01_GetRequest references non-existing project RestPractice.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-01-04 16:38:55.517
+!MESSAGE Launch configuration TC01_GetRequest references non-existing project RestPractice.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration TC01_GetRequest references non-existing project RestPractice.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1713)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2147)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:375)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:258)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:228)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:186)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:349)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:373)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:821)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:985)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1375)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2020-01-04 16:38:55.679
+!MESSAGE Launch configuration TC01_GetRequest references non-existing project RestPractice.
+
+!ENTRY org.eclipse.jdt.launching 4 107 2020-01-04 16:40:00.114
+!MESSAGE Launch configuration TC02_PostRegister references non-existing project RestPractice.
+
+!ENTRY org.eclipse.jdt.launching 4 107 2020-01-04 16:40:14.835
+!MESSAGE Launch configuration TC02_PostRegister references non-existing project RestPractice.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 16:40:44.090
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 16:40:44.098
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 16:40:45.490
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 16:40:45.494
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.launching 4 107 2020-01-04 16:40:47.076
+!MESSAGE Launch configuration TC02_PostRegister references non-existing project RestPractice.
+!SESSION 2020-01-04 16:42:33.063 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/bpoonia/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/bpoonia/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2020-01-04 16:43:16.564
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 16:45:00.616
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 16:45:00.632
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-01-04 16:45:01.284
+!MESSAGE Launch configuration TC02_PostRegister (waiting for build...) references non-existing project RestPractice.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration TC02_PostRegister (waiting for build...) references non-existing project RestPractice.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1838)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1713)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:522)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:410)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2020-01-04 16:45:01.285
+!MESSAGE Launch configuration TC02_PostRegister (waiting for build...) references non-existing project RestPractice.
+
+!ENTRY org.eclipse.jdt.launching 4 107 2020-01-04 16:45:02.482
+!MESSAGE Launch configuration TC02_PostRegister references non-existing project RestPractice.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 16:52:17.548
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 16:52:17.578
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 17:02:34.127
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 17:02:34.133
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 17:04:32.263
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 17:04:32.268
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 17:04:52.466
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 17:04:52.469
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 17:05:09.456
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 17:05:09.462
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 17:05:18.584
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 17:05:18.589
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 17:06:09.387
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 17:06:09.395
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 17:06:57.567
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 17:06:57.571
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 17:53:07.667
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 17:53:07.672
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 17:54:14.068
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 17:54:14.073
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 17:56:28.866
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 17:56:28.871
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 18:20:16.278
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 18:20:16.286
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 18:23:18.880
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 18:23:18.884
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 18:23:33.091
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 18:23:33.094
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 18:23:57.405
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 18:23:57.409
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 18:36:08.420
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 18:36:08.427
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 18:37:42.660
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 18:37:42.665
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 18:37:46.360
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 18:37:46.363
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 18:42:49.716
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 18:42:49.740
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 18:44:20.690
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 18:44:20.695
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 18:48:35.952
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 18:48:35.959
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 18:48:40.893
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 18:48:40.895
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 19:04:25.464
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 19:04:25.470
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 19:05:40.749
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 19:05:40.755
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 19:05:42.233
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 19:05:42.238
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 19:14:25.677
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 19:14:25.687
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 19:14:27.171
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 19:14:27.174
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-01-04 19:14:39.176
+!MESSAGE Could not download sources for com.google.code.findbugs:jsr305:1.3.9
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.code.findbugs:jsr305:jar:sources:1.3.9
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:805)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:750)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1375)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing com.google.code.findbugs:jsr305:jar:sources:1.3.9
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2020-01-04 19:14:39.176
+!MESSAGE Could not resolve artifact com.google.code.findbugs:jsr305:jar:sources:1.3.9
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2020-01-04 19:14:39.176
+!MESSAGE Missing com.google.code.findbugs:jsr305:jar:sources:1.3.9
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 19:14:56.130
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 19:14:56.133
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-01-04 19:14:57.806
+!MESSAGE Could not download javadoc for com.google.code.findbugs:jsr305:1.3.9
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.code.findbugs:jsr305:jar:javadoc:1.3.9
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:805)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:750)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1375)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing com.google.code.findbugs:jsr305:jar:javadoc:1.3.9
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2020-01-04 19:14:57.806
+!MESSAGE Could not resolve artifact com.google.code.findbugs:jsr305:jar:javadoc:1.3.9
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2020-01-04 19:14:57.806
+!MESSAGE Missing com.google.code.findbugs:jsr305:jar:javadoc:1.3.9
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 19:15:30.102
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 19:15:30.108
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 19:15:31.516
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 19:15:31.518
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 19:15:39.664
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 19:15:39.668
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:51:48.631
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:51:48.644
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:58:18.493
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:58:18.497
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:58:32.168
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:58:32.172
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:58:43.562
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:58:43.564
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:59:09.830
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 21:59:09.834
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 22:07:37.572
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 22:07:37.578
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 22:10:35.887
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 22:10:35.894
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 22:13:57.718
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 22:13:57.731
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 22:38:46.280
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-04 22:38:46.286
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 14:45:30.899
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 14:45:30.909
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 15:04:16.816
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 15:04:16.823
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 15:09:49.599
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 15:09:49.606
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 15:27:10.230
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 15:27:10.246
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 15:27:27.553
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 15:27:27.556
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 15:28:06.213
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 15:28:06.216
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 15:28:32.924
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 15:28:32.927
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 15:35:53.259
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 15:35:53.265
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 15:44:32.683
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 15:44:32.689
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 15:47:05.038
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 15:47:05.043
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 15:47:42.557
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 15:47:42.560
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 15:53:37.965
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 15:53:37.977
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 15:54:35.082
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 15:54:35.086
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 15:54:50.373
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 15:54:50.375
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 15:54:56.985
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 15:54:56.989
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 15:57:50.733
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 15:57:50.744
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 16:05:10.341
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 16:05:10.351
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 16:17:51.006
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 16:17:51.013
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 16:19:05.299
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 16:19:05.304
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 17:26:17.580
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 17:26:17.586
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 17:31:38.959
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 17:31:38.965
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 17:32:32.556
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 17:32:32.558
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 17:40:05.904
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-05 17:40:05.911
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!

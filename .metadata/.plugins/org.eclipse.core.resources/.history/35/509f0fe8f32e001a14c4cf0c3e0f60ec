@@ -1,0 +1,15 @@
+package com.unicommerce;
+
+public interface Remote_Contol {
+	boolean TVStatus = false;
+
+void start();
+//void stop();
+//int setFavourite();
+//int increaseVolume();
+//int increaseChannel();
+
+
+
+
+}

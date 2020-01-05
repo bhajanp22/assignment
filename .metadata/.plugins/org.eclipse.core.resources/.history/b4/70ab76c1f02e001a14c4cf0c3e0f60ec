@@ -1,0 +1,10 @@
+package com.unicommerce;
+
+public class TV_Remove {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub 
+	Remote_Contol rmt = () -> System.out.println("Inside Remote control");
+	rmt.start();	
+ }
+     
+}

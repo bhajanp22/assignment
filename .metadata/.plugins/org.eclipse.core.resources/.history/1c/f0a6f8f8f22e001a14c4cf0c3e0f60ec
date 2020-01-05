@@ -1,0 +1,29 @@
+package com.unicommerce;
+
+public class TV_Remove implements Remote_Contol {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub 	
+	boolean TVStatus = false;
+	int maxChannel =250;
+	int lowChannel = 1;
+	int lowVolume =0;
+	int highVolume = 100;
+	
+	//TV_Remove rmt = new TV_Remove();
+	
+  Remote_Contol rmt = () -> System.out.println("Inside Remote control");
+	
+	
+	
+	rmt.start();
+	
+ }
+
+//	@Override
+//	public void start() {
+//
+//	System.out.println("Helo new ");
+//		
+//	}
+     
+}
