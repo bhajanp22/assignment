@@ -127,15 +127,18 @@
                   <a name="addToCart">
                   </a> <!-- addToCart -->
                   <span class="method-name">addToCart</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: element click intercepted: Element &lt;a class=&quot;_...Xp0TH&quot; href=&quot;/mens-footwear/sports-shoes/pr?sid=osp%2Ccil%2C1cu&amp;amp;otracker=nmenu_sub_Men_0_Sports+Shoes&amp;amp;page=2&quot;&gt;2&lt;/a&gt; is not clickable at point (745, 16). Other element would receive the click: &lt;input type=&quot;text&quot; value=&quot;&quot; class=&quot;LM6RPg&quot; title=&quot;Search for products, brands and more&quot; name=&quot;q&quot; autocomplete=&quot;off&quot; placeholder=&quot;Search for products, brands and more&quot;&gt;
+                  <div class="stack-trace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //a[class=&apos;_2mylT6] because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//a[class=&apos;_2mylT6]&apos; is not a valid XPath expression.
   (Session info: chrome=79.0.3945.88)
   (Driver info: chromedriver=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.23 seconds
+Command duration or timeout: 63 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;
 System info: host: &apos;Bhajans-MacBook-Air.local&apos;, ip: &apos;192.168.1.9&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.1&apos;, java.version: &apos;1.8.0_171&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58322}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=/var/folders/gb/vwq3r7bs35x0lvgwlp62mqr80000gn/T/.com.google.Chrome.HfDnPp}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.88, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 02afe3d7cecc4b70f92ec66529deeb86
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58333}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=/var/folders/gb/vwq3r7bs35x0lvgwlp62mqr80000gn/T/.com.google.Chrome.FMBRkh}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.88, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6d03b67f371c953f88d65823ba8238ea
+*** Element info: {Using=xpath, value=//a[class=&apos;_2mylT6]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -143,9 +146,11 @@ Session ID: 02afe3d7cecc4b70f92ec66529deeb86
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:80)
-	at com.unicommerce.FlipkartTest.addToCart(FlipkartTest.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:459)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
+	at com.unicommerce.FlipkartTest.addToCart(FlipkartTest.java:86)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -179,7 +184,7 @@ Session ID: 02afe3d7cecc4b70f92ec66529deeb86
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/gb/vwq3r7bs35x0lvgwlp62mqr80000gn/T/testng-eclipse--1397833233/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/gb/vwq3r7bs35x0lvgwlp62mqr80000gn/T/testng-eclipse--109178792/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -232,12 +237,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'addToCart')
 data.setCell(0, 2, 'com.unicommerce.FlipkartTest')
-data.setCell(0, 3, 38353);
+data.setCell(0, 3, 37615);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 38 seconds</span>
+              <span class="suite-total-time">Total running time: 37 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
