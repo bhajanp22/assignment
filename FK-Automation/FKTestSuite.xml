@@ -1,0 +1,8 @@
+<suite name="FK-Automation" verbose="1">
+	<test name="FK">
+		<classes>
+			<class name="com.fk.testcases.FKCheckoutTests" />
+		</classes>
+	</test>
+
+</suite>

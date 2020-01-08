@@ -1,0 +1,1 @@
+{"uuid":"b3ab6227-0a6c-4ebe-99a4-d77a76e74076","name":"DT-HTL-Automation","children":["2ebc1b2d-d89b-4145-b48a-0ce31ad74d3c"],"befores":[{"name":"beforeSuite","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1574318236450,"stop":1574318236458}],"afters":[],"links":[],"start":1574318236402,"stop":1574318970901}

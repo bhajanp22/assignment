@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FK-Automation]">
+  <test thread-count="5" name="FK(failed)">
+    <classes>
+      <class name="com.fk.testcases.FKCheckoutTests">
+        <methods>
+          <include name="verifyCheckoutFlow"/>
+        </methods>
+      </class> <!-- com.fk.testcases.FKCheckoutTests -->
+    </classes>
+  </test> <!-- FK(failed) -->
+</suite> <!-- Failed suite [FK-Automation] -->
